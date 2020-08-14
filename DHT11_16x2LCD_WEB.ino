@@ -17,7 +17,7 @@ const int buzzerPin = 9;
 LiquidCrystal lcd(3, 4, 5, 6, 7, 8);
 // ENC28J60 Ethernet modülümüzün bilgilerini Ardunio'ya tanımlıyoruz
 static byte mymac[] = {0x74, 0x69, 0x69, 0x2D, 0x30, 0x31};
-static byte myip[] = {10, 34, 110, 205};
+static byte myip[] = {10, 34, 110, 204};
 static byte gwip[] = {10, 34, 110, 1};
 static byte subnet[] = {255, 255, 254, 0};
 byte Ethernet::buffer[500];
